@@ -43,27 +43,6 @@ By analyzing text and numeric data together, we uncover hidden patterns in real-
 - Compare degree distributions with **Benford’s Law**
 - Use **KL Divergence** and **Jensen-Shannon Divergence** for statistical validation
 
-## **Installation & Usage**
-### **Requirements**
-Ensure you have Python installed. Then, install the dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-### **Running the Analysis**
-To execute the Zipf’s Law analysis:
-```bash
-python scripts/zipf_analysis.py
-```
-To execute the Benford’s Law analysis:
-```bash
-python scripts/benford_analysis.py
-```
-To compare both laws and analyze network distributions:
-```bash
-python scripts/unified_analysis.py
-```
-
 ## **Results & Discussion**
 This project demonstrates that **natural language and numerical datasets share universal statistical properties**. By understanding these laws, we can:
 - Improve **linguistic data processing** (e.g., text compression, keyword ranking)
