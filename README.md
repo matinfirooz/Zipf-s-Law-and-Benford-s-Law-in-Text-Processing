@@ -15,10 +15,7 @@ By analyzing text and numeric data together, we uncover hidden patterns in real-
 ├── notebooks/          # Jupyter notebooks for analysis
 │   ├── zipf_analysis.ipynb  
 │   ├── benford_analysis.ipynb  
-├── scripts/            # Python scripts for data preprocessing & analysis
-├── results/            # Output graphs and statistical results
-├── README.md           # Project documentation
-└── requirements.txt    # Dependencies
+├── README.md           
 ```
 
 ## **Tasks and Objectives**
