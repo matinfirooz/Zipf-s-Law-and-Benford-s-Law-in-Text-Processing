@@ -13,6 +13,8 @@ By analyzing text and numeric data together, we uncover hidden patterns in real-
 │   ├── Text-1.txt      # Original text from "The Origin of Species"
 │   ├── Text-2.txt      # Preprocessed version (no punctuation, all uppercase)
 ├── notebooks/          # Jupyter notebooks for analysis
+│   ├── zipf_analysis.ipynb  # Zipf’s Law analysis
+│   ├── benford_analysis.ipynb  # Benford’s Law analysis
 ├── scripts/            # Python scripts for data preprocessing & analysis
 ├── results/            # Output graphs and statistical results
 ├── README.md           # Project documentation
