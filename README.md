@@ -10,11 +10,11 @@ By analyzing text and numeric data together, we uncover hidden patterns in real-
 ## **Project Structure**
 ```
 ├── data/               # Raw and processed datasets
-│   ├── Text-1.txt      # Original text from "The Origin of Species"
-│   ├── Text-2.txt      # Preprocessed version (no punctuation, all uppercase)
+│   ├── Text-1.txt     
+│   ├── Text-2.txt      
 ├── notebooks/          # Jupyter notebooks for analysis
-│   ├── zipf_analysis.ipynb  # Zipf’s Law analysis
-│   ├── benford_analysis.ipynb  # Benford’s Law analysis
+│   ├── zipf_analysis.ipynb  
+│   ├── benford_analysis.ipynb  
 ├── scripts/            # Python scripts for data preprocessing & analysis
 ├── results/            # Output graphs and statistical results
 ├── README.md           # Project documentation
