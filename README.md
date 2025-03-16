@@ -70,8 +70,6 @@ This project demonstrates that **natural language and numerical datasets share u
 - Detect **fraud and anomalies** in financial reports (Benford’s Law applications)
 - Analyze **networks and social graphs** for natural distribution patterns
 
-## **Contributing**
-Contributions are welcome! Feel free to fork this repository, make improvements, and submit a pull request.
 
 ## **Acknowledgments**
 Special thanks to the mathematical and data science community for inspiring this project!
