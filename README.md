@@ -48,7 +48,3 @@ This project demonstrates that **natural language and numerical datasets share u
 - Improve **linguistic data processing** (e.g., text compression, keyword ranking)
 - Detect **fraud and anomalies** in financial reports (Benford’s Law applications)
 - Analyze **networks and social graphs** for natural distribution patterns
-
-
-## **Acknowledgments**
-Special thanks to the mathematical and data science community for inspiring this project!
