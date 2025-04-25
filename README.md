@@ -10,8 +10,6 @@
    3.3. [Bridging the Two Laws](#3-bridging-the-two-laws)  
    3.4. [Networks & Statistics](#4-networks--statistics)  
 4. [How to Run](#how-to-run)  
-5. [Requirements](#requirements)  
-6. [License](#license)
 
 ---
 
