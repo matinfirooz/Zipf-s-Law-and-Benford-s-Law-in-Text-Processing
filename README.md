@@ -1,11 +1,29 @@
-# **Analyzing Patterns in Language and Numbers: A Unified Study of Zipf’s Law and Benford’s Law**
+# Patterns in Words and Numbers: A Look at Zipf’s and Benford’s Laws
 
-## **Overview**
-This project explores two fundamental statistical laws:
-- **Zipf’s Law** (word frequency distribution in natural language)
-- **Benford’s Law** (distribution of leading digits in numerical datasets)
+## Table of Contents
 
-By analyzing text and numeric data together, we uncover hidden patterns in real-world datasets and establish a connection between linguistic and numerical distributions.
+1. [What’s This Project About?](#whats-this-project-about)  
+2. [Project Structure](#project-structure)  
+3. [Main Goals](#main-goals)  
+   3.1. [Zipf’s Law – Word Frequency](#1-zipfs-law--word-frequency)  
+   3.2. [Benford’s Law – Leading Digits](#2-benfords-law--leading-digits)  
+   3.3. [Bridging the Two Laws](#3-bridging-the-two-laws)  
+   3.4. [Networks & Statistics](#4-networks--statistics)  
+4. [How to Run](#how-to-run)  
+5. [Requirements](#requirements)  
+6. [License](#license)
+
+---
+
+## What’s This Project About?
+
+This project explores two fascinating statistical patterns that appear across very different types of data: Zipf’s Law and Benford’s Law.
+
+Zipf’s Law describes how word frequencies in language follow a predictable pattern: a small number of words are extremely common, while the majority occur very rarely. Benford’s Law, on the other hand, explains why in many real-world datasets, lower digits (like 1 or 2) appear more often as the first digit in numbers than higher digits.
+
+We use real text and numeric datasets to study these two laws independently, explore potential relationships between them, and examine how they show up in networks and graph structures.
+
+---
 
 ## **Project Structure**
 ```
@@ -48,3 +66,45 @@ This project demonstrates that **natural language and numerical datasets share u
 - Improve **linguistic data processing** (e.g., text compression, keyword ranking)
 - Detect **fraud and anomalies** in financial reports (Benford’s Law applications)
 - Analyze **networks and social graphs** for natural distribution patterns
+
+
+---
+
+## Main Goals
+
+### 1. Zipf’s Law – Word Frequency
+
+We start by analyzing a large block of English text, around one million characters long. After standardizing the text (uppercase conversion and punctuation removal), we split it into words and count how often each one appears. By plotting word frequency against word rank on a log-log scale, we can check whether the distribution follows the Zipfian curve.
+
+### 2. Benford’s Law – Leading Digits
+
+For this part, we extract the leading digit from each number in several real-world datasets. We then compare the frequency of these digits with the expected probabilities from Benford’s Law. A histogram visually illustrates how closely the dataset follows the predicted pattern.
+
+### 3. Bridging the Two Laws
+
+We compare the mathematical structure of both laws—Zipf’s logarithmic decline and Benford’s logarithmic distribution. We analyze whether word frequencies from natural language could exhibit Benford-like digit distributions, drawing connections between linguistic and numerical data.
+
+### 4. Networks & Statistics
+
+Using NetworkX, we generate synthetic graphs and analyze the distribution of node degrees (i.e., how many connections each node has). These degree distributions are compared to Benford’s distribution using statistical distance metrics like KL Divergence and Jensen-Shannon Divergence.
+
+---
+
+## What We Found
+
+Both Zipf’s Law and Benford’s Law emerged clearly from the data. Textual word distributions followed the Zipfian pattern with a sharp drop-off in frequency after the most common words. Numeric datasets, especially those spanning multiple magnitudes, often aligned closely with Benford’s predictions.
+
+When applied to networks, some graphs displayed partial compliance with Benford’s Law in their degree distributions, especially in larger or more heterogeneous structures.
+
+These findings suggest that skewed, power-law-type distributions are deeply embedded in how both information and structure organize themselves—across language, numbers, and networks. Understanding these laws can be valuable in applications such as text compression, anomaly detection, and social network analysis.
+
+---
+
+## How to Run
+
+To explore the project, clone the repository and open the notebooks using Jupyter:
+
+```bash
+git clone https://github.com/matinfirooz/Zipf-s-Law-and-Benford-s-Law-in-Text-Processing.git
+cd zipf-benford-analysis
+jupyter notebook
