@@ -90,16 +90,6 @@ Using NetworkX, we generate synthetic graphs and analyze the distribution of nod
 
 ---
 
-## What We Found
-
-Both Zipf’s Law and Benford’s Law emerged clearly from the data. Textual word distributions followed the Zipfian pattern with a sharp drop-off in frequency after the most common words. Numeric datasets, especially those spanning multiple magnitudes, often aligned closely with Benford’s predictions.
-
-When applied to networks, some graphs displayed partial compliance with Benford’s Law in their degree distributions, especially in larger or more heterogeneous structures.
-
-These findings suggest that skewed, power-law-type distributions are deeply embedded in how both information and structure organize themselves—across language, numbers, and networks. Understanding these laws can be valuable in applications such as text compression, anomaly detection, and social network analysis.
-
----
-
 ## How to Run
 
 To explore the project, clone the repository and open the notebooks using Jupyter:
