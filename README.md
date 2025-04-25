@@ -106,5 +106,5 @@ To explore the project, clone the repository and open the notebooks using Jupyte
 
 ```bash
 git clone https://github.com/matinfirooz/Zipf-s-Law-and-Benford-s-Law-in-Text-Processing.git
-cd zipf-benford-analysis
+cd Zipf-s-Law-and-Benford-s-Law-in-Text-Processing
 jupyter notebook
